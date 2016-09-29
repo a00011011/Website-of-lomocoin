@@ -1,0 +1,190 @@
+*{
+    padding:0;
+    margin:0;
+}
+p,
+span,
+ul,
+li,
+h2,
+a {
+    font-family:Arial,"Times New Roman","Microsoft YaHei",Helvetica, Tahoma, "Hiragino Sans GB", "Hiragino Sans GB W3",STXihei, STHeiti, Heiti, SimSun, sans-serif;
+
+}
+
+html {
+    font-family: Arial,"Times New Roman","Microsoft YaHei" ,Helvetica, Tahoma,"Hiragino Sans GB", "Hiragino Sans GB W3", STXihei, STHeiti, Heiti, SimSun, sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.head_right{
+    margin-right:4.5rem;
+}
+#head_right2{
+    padding:0;
+}
+#head_right2 span{
+   margin:0 0.1rem;
+}
+#head_right3 {
+    padding:0;
+}
+/*µÚ1ÕÅ±êÌâ×ÖÌå----*/
+#top_lomo h2{
+    letter-spacing: 0rem;
+    padding:0 0.2rem 0 0;
+}
+#pp{
+   padding:0.22rem 0 0 0.2rem;
+    font-size:0.3rem;
+}
+#pp1{
+    font-size:0.2rem;
+    margin:0.25rem 0 0 0rem;
+}
+.p2 span{
+    color:#ffd430;
+}
+/*androidÍ¼±ê----*/
+#icon{
+    padding:0.18rem 0 0 0.15rem;
+}
+/*h2±êÌâÔÆ----*/
+#h2_title{
+    font-size:0.3rem;
+    letter-spacing:0rem;
+    margin-top:0rem;
+}
+#cloud1{
+    height:1.4rem;
+    width:3.80rem;
+
+    left:20%;
+
+}
+#cloud1 p{
+    width:70%;
+    height:100%;
+
+}
+#cloud1 img{
+
+}
+#cloud_word1{
+    line-height:0.25rem;
+}
+#cloud2{
+    height:0.9rem;
+}
+#cloud3{
+    width:3.2rem;
+    height:1.2rem;
+    left:12%;
+}
+#cloud4{
+
+}
+#cloud5{
+    height:1.2rem;
+    top:48%;
+    right:8%;
+}
+/*µÚ3ÕÅÓ¢ÎÄ¼ä¾à----*/
+#play{
+    position: absolute;
+    left:-5.6rem;
+    top:2.5rem;
+
+}
+#busin{
+    position: absolute;
+    right:-5.6rem;
+    top:2.5rem;
+
+}
+
+/*µÚ5ÕÅp±êÇ©ÐÐ¾à----*/
+#page5_right p{
+    line-height: 0.3rem;
+}
+
+/*µÚ5ÕÅÏÂÃæÁ´½Ó----*/
+#link_btn{
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+#link_btn .btn {
+    float: left;
+    height: 0.5rem;
+    padding: 0 0.1rem;
+    border: 0.02rem solid #fff;
+    border-radius: 0.1rem;
+    background: none;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+    color: #fff;
+    /*margin-right: 0.4rem;*/
+    min-width: 1.0rem;
+    text-align: center;
+    /*float:left;*/
+    /*padding: 0 0.1rem;*/
+    /*margin-right: 0.4rem;*/
+    margin-bottom:0.1rem;
+    /*min-width:2.5rem;*/
+
+}
+#link_btn .btn a{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    font-size: 0.2rem;
+
+}
+#link_btn .two{
+    padding: 0 0.37rem;
+}
+
+#link_btn .one,#link_btn .three{
+    margin-left:1.5rem;
+
+}
+#link_btn .two{
+    margin-left:0.95rem;
+    padding: 0 0.225rem;
+}
+#link_btn .four{
+    margin-left:0.95rem;
+    padding:0 0.2rem;
+}
+
+#bottom_width{
+    width:60%;
+}
+
+.page4 .center .figure .left p {
+    font-family:  Arial ;
+}
+
+.page4 .title h2 {
+    font-size: 0.4rem;
+    color: #3b3b3b;
+    letter-spacing: 0rem;
+}
+
+.page6 .center .left, .page6 .center .right {
+    width: 5.75rem;
+}
+.page6 .center .left li p, .page6 .center .right li p {
+    float: left;
+    padding: 0 0 0 0.1rem;
+    font-size: 0.2rem;
+    color: #535353;
+    width: 4.5rem;
+}
+.page7 .hint .p1, .page7 .hint .p2 {
+    font-size: 0.18rem;
+    color: #313131;
+    line-height: 0.3rem;
+}

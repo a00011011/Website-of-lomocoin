@@ -1,0 +1,1288 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  list-style: none;
+}
+p,
+span,
+ul,
+li,
+h2,
+a {
+  font-family:  "Microsoft YaHei",Arial,"Times New Roman","Microsoft YaHei",Helvetica, Tahoma, "Hiragino Sans GB", "Hiragino Sans GB W3",STXihei, STHeiti, Heiti, SimSun, sans-serif;
+  font-size: 0.18rem;
+  color: #fff;
+}
+.none {
+  display: none;
+}
+h2 {
+  font-family: "Microsoft YaHei",Arial,"Times New Roman","Microsoft YaHei",Helvetica, Tahoma, "Hiragino Sans GB", "Hiragino Sans GB W3", STXihei, STHeiti, Heiti, SimSun, sans-serif;
+}
+h3 {
+  font-size: 0.26rem;
+  margin: 0.2rem 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.fl,
+.left {
+  float: left;
+}
+.rl,
+.right {
+  float: right;
+}
+html,
+body,
+.swiper-container,
+.swiper-wrapper,
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+html {
+  font-size: 60px;
+  min-width: 950px;
+  font-family: "Microsoft YaHei",Arial,"Times New Roman","Microsoft YaHei" ,Helvetica, Tahoma,"Hiragino Sans GB", "Hiragino Sans GB W3", STXihei, STHeiti, Heiti, SimSun, sans-serif;
+}
+
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1rem;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+.head .logo {
+  position: absolute;
+  top: 0.35rem;
+  left: 0.9rem;
+  width: 1.95rem;
+  height: 0.4rem;
+}
+.head .center {
+  float: left;
+  height: 100%;
+  margin-left: 5.8rem;
+  min-width: 950px;
+}
+.head .center li {
+  float: left;
+  height: 100%;
+  line-height: 1rem;
+  padding: 0 0.2rem;
+}
+.head .center .center_change{
+ position: absolute;
+  right:1rem;
+
+}
+.pagination {
+  position: absolute;
+  z-index: 20;
+  top: 35%;
+  right: 0.9rem;
+  width: 0.18rem;
+}
+.pagination .swiper-pagination-switch {
+  display: block;
+  width: 0.18rem;
+  height: 0.18rem;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.5);
+  margin: 0.2rem 0;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.pagination .swiper-active-switch {
+  background: #fff;
+}
+.page1 {
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-page1.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.page1 .content {
+  width: 11.5rem;
+  height: 5.7rem;
+  margin: 0 auto;
+  margin-top: 2.4rem;
+  padding: 0 0 0 0.45rem;
+}
+.page1 .content .left {
+  width: 2.6rem;
+  height: auto;
+}
+.page1 .content .right {
+  width: 7.5rem;
+  float: right;
+  margin-left: 1.15rem;
+}
+.page1 .content .right .top {
+  overflow: hidden;
+  padding: 0.2rem 0 0 0;
+}
+.page1 .content .right .top .lomo h2 {
+  overflow: hidden;
+  float: left;
+  font-weight: 600;
+  font-size: 0.65rem;
+  line-height: 0.80rem;
+  height: 0.80rem;
+  letter-spacing: 0.08rem;
+  padding: 0 0.3rem 0 0;
+  border-right: 2px solid #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+.page1 .content .right .top .lomo .p1 {
+  float: left;
+  width: 4rem;
+  color: #fff1c9;
+  font-size: 0.28rem;
+  padding: 0 0 0 0.3rem;
+  text-shadow: 1px 1px 1px #000;
+}
+.page1 .content .right .top .lomo .p2 {
+  float: left;
+  font-size: 0.2rem;
+  color: #ffd96a;
+  padding: 0.06rem 0 0 0.3rem;
+  text-shadow: 1px 1px 1px #000;
+}
+.page1 .content .right .top .introduce p {
+  float: left;
+  text-shadow: 1px 1px 1px #000;
+}
+.page1 .content .right .top .introduce .p1 {
+  font-size: 0.34rem;
+  margin: 0.1rem 0;
+}
+.page1 .content .right .top .introduce .p1 span {
+  font-size: 0.34rem;
+  color: #ffd430;
+}
+.page1 .content .right .top .introduce .p2 {
+  font-size: 0.19rem;
+  letter-spacing:.012rem;
+}
+.page1 .content .right .bottom {
+  margin-top: 0.6rem;
+}
+.page1 .content .right .bottom .left {
+  text-align: center;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+.page1 .content .right .bottom .left .QRcode {
+  float: left;
+  width: 100%;
+  height: auto;
+  border-radius: 0.15rem;
+}
+.page1 .content .right .bottom .left span {
+  float: left;
+  display: block;
+  font-size: 0.2rem;
+  margin-top: 0.3rem;
+  width: 120%;
+  margin-left: -10%;
+}
+.page1 .content .right .bottom .download {
+  float: left;
+  margin-left: 0.3rem;
+}
+.page1 .content .right .bottom .download div {
+  cursor: pointer;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+  width: 2.6rem;
+  height: 0.8rem;
+  border-radius: 0.1rem;
+  border: 0.02rem solid #fff;
+  background: none;
+  text-align: center;
+  font-size: 0.28rem;
+  color: #fff;
+  padding: 0.18rem 0 0 0.4rem;
+}
+.page1 .content .right .bottom .download div img {
+  float: left;
+  width: 0.32rem;
+  height: auto;
+  margin-right: 0.2rem;
+}
+.page1 .content .right .bottom .download div a {
+  float: left;
+  height: 100%;
+  line-height: 0.45rem;
+  font-size: .22rem;
+}
+.page1 .content .right .bottom .download .ios {
+  padding: 0.18rem 0 0 0.4rem;
+  margin-bottom: 0.26rem;
+}
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+#bac{
+  position: absolute;
+  height:100%;
+  width:100%;
+  background:black;
+  opacity: 0.5;
+  filter:alpha(opacity=50);
+  z-index:33;
+}
+#div3{
+  display:none;
+  height:518px;
+  width:670px;
+  position: absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  z-index:34;
+
+}
+#div3 p{
+  position: relative;
+  width:100%;
+  height:100%;
+  z-index:35;
+}
+#div3 p img{
+  width:100%;
+  height:100%;
+  z-index:36;
+}
+#div3 p span{
+  position: absolute;
+  width:50px;
+  height:50px;
+  right:0;
+  top:0;
+  z-index:37;
+}
+
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
+.page2 {
+  position: relative;
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-page2.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.page2 .title {
+  padding-top: 1rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.page2 .title .lemo {
+  display: block;
+  width: 0.65rem;
+  margin: 0 auto;
+}
+.page2 .title h2 {
+  margin-top: 0.1rem;
+  font-size: 0.4rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  color: #3b3b3b;
+  letter-spacing: 0.05rem;
+}
+.page2 .title p {
+  font-size: 0.19rem;
+  color: #777;
+}
+.page2 .ipod {
+  position: absolute;
+  width: 13.8rem;
+  height: 5.7rem;
+  bottom: 0;
+  left: 50%;
+}
+.page2 .cloud1,
+.page2 .cloud2,
+.page2 .cloud3,
+.page2 .cloud4,
+.page2 .cloud5 {
+  position: absolute;
+}
+.page2 .cloud1 img,
+.page2 .cloud2 img,
+.page2 .cloud3 img,
+.page2 .cloud4 img,
+.page2 .cloud5 img {
+  width: 100%;
+  display: none;
+}
+.page2 .cloud1 p,
+.page2 .cloud2 p,
+.page2 .cloud3 p,
+.page2 .cloud4 p,
+.page2 .cloud5 p {
+  font-size: 0.2rem;
+  color: #b2790f;
+  text-align: center;
+  line-height: 0.35rem;
+}
+.page2 .cloud1,
+.page2 .cloud2 {
+  top: 20%;
+  padding-top: 0.6rem;
+  width: 2.8rem;
+  height: 0.78rem;
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-cloud1.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.page2 .cloud1 p,
+.page2 .cloud2 p {
+  width: 1.55rem;
+  margin: 0 0 0 0.43rem;
+}
+.page2 .cloud1 {
+  left: 25%;
+}
+.page2 .cloud2 {
+  right: 25%;
+}
+.page2 .cloud2 p {
+  margin: 0.05rem 0 0 0.35rem;
+  width: 1.85rem;
+}
+.page2 .cloud3,
+.page2 .cloud4,
+.page2 .cloud5 {
+  padding-top: 0.75rem;
+  width: 3rem;
+  height: 0.85rem;
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-cloud2.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.page2 .cloud3 p,
+.page2 .cloud4 p,
+.page2 .cloud5 p {
+  width: 2.4rem;
+  margin: 0 0 0 0.23rem;
+}
+.page2 .cloud4,
+.page2 .cloud5 {
+  padding-top: 0.8rem;
+  height: 0.8rem;
+}
+.page2 .cloud3 {
+  top: 45%;
+  left: 15%;
+}
+.page2 .cloud4 {
+  top: 40%;
+  right: 25%;
+}
+.page2 .cloud5 {
+  top: 45%;
+  right: 5%;
+}
+.page3 {
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-page3.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.page3 .title {
+  padding-top: 10%;
+  margin: 0 auto;
+  text-align: center;
+}
+.page3 .title h2 {
+  font-size: 0.4rem;
+  color: #fff;
+  letter-spacing: 0.05rem;
+}
+.page3 .title p {
+  font-size: 0.19rem;
+  color: #fff;
+}
+.page3 .center {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  margin: 0.5rem auto 0 auto;
+}
+.page3 .center .ring2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.page3 .center .ring1 {
+  position: absolute;
+  width: 3.7rem;
+  height: 4rem;
+}
+.page3 .center .lomocoin {
+  position: absolute;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.page3 .center .player,
+.page3 .center .business {
+  position: absolute;
+  width: 3.6rem;
+  height: 2.6rem;
+}
+.page3 .center .player img,
+.page3 .center .business img {
+  width: 100%;
+  height: auto;
+}
+.page3 .center .player span,
+.page3 .center .business span {
+  position: absolute;
+  bottom: 0.3rem;
+  width: 1.5rem;
+  text-align: center;
+  font-size: 0.3rem;
+}
+.page3 .center .player {
+  left: -3rem;
+}
+.page3 .center .player span {
+  left: 0;
+}
+.page3 .center .business {
+  right: -3rem;
+}
+.page3 .center .business span {
+  right: 0;
+}
+.page3 .center .play {
+  position: absolute;
+  top: 2.5rem;
+  left: -4rem;
+}
+.page3 .center .play li {
+  line-height: 0.45rem;
+  font-size: .18rem;
+}
+.page3 .center .play li span {
+  display: inline-block;
+  width: 0.18rem;
+  height: 0.18rem;
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-dot.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+  margin-right: 0.1rem;
+}
+.page3 .center .busin {
+  position: absolute;
+  top: 2.5rem;
+  right: -4rem;
+}
+.page3 .center .busin li {
+  line-height: 0.45rem;
+}
+.page3 .center .busin li span {
+  display: inline-block;
+  width: 0.18rem;
+  height: 0.18rem;
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-dot.png") 0 0 no-repeat;
+  background-size: 100% 100%;
+  margin-right: 0.1rem;
+}
+.page4 {
+  position: relative;
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-page4.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.page4 .title {
+  padding-top: 7%;
+  margin: 0 auto;
+  text-align: center;
+}
+.page4 .title h2 {
+  font-size: 0.4rem;
+  color: #3b3b3b;
+  letter-spacing: 0.05rem;
+}
+.page4 .title .p1 {
+  font-size: 0.2rem;
+  color: #777;
+}
+.page4 .title .p2 {
+  margin: 0 auto;
+  margin-top: 0.12rem;
+  font-size: 0.2rem;
+  color: #777;
+  line-height: 0.35rem;
+}
+.page4 .center {
+  width: 12.8rem;
+  height: 5.6rem;
+  margin: 0 auto;
+  margin-top: 0.7rem;
+  padding-left: 1rem;
+}
+.page4 .center .figure {
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+.page4 .center .figure .headpic {
+  float: left;
+  margin-right: 0.3rem;
+}
+.page4 .center .figure .headpic img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.page4 .center .figure .left h2 {
+  font-size: 0.3rem;
+  color: #3b3b3b;
+  font-weight: 100;
+}
+.page4 .center .figure .left h4 {
+  font-size: 0.22rem;
+  color: #3b3b3b;
+  margin-bottom: 0.06rem;
+  font-weight: 100;
+  margin-top: .2rem;
+}
+.page4 .center .figure .left p {
+  font-family:"Microsoft YaHei", SimSun-ExtB;
+  font-size: 0.18rem;
+  color: #777;
+  line-height: 0.3rem;
+  width: 4rem;
+}
+.page4 .center .figure1 .headpic img {
+  width: 1.25rem;
+  height: 1.34rem;
+}
+.page4 .bottom {
+  position: absolute;
+  bottom: 0.3rem;
+  width: 100%;
+  font-size: 0.2rem;
+  color: #656565;
+  text-align: center;
+  font-family: "Microsoft YaHei",Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3",, STXihei, STHeiti, Heiti, SimSun, sans-serif;
+}
+.page5 {
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-page5.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.page5 .center {
+  width: 12rem;
+  height: 7.75rem;
+  margin: 7% auto 0 auto;
+}
+.page5 .center .left {
+  width: 4.1rem;
+  height: auto;
+}
+.page5 .center .right {
+  width: 7.85rem;
+  padding-top: 0.45rem;
+}
+.page5 .center .right li {
+  height: 1.35rem;
+  margin-bottom: 0.6rem;
+}
+.page5 .center .right li .search,
+.page5 .center .right li .plane,
+.page5 .center .right li .open {
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.page5 .center .right li .search img,
+.page5 .center .right li .plane img,
+.page5 .center .right li .open img {
+  position: absolute;
+  width: 0.75rem;
+}
+.page5 .center .right li .slogan {
+  width: 5.8rem;
+  margin-left: 0.3rem;
+}
+.page5 .center .right li .slogan h3 {
+  font-size: 0.3rem;
+  margin: 0.1rem 0 0.1rem 0;
+}
+.page5 .center .right li .slogan p {
+  line-height: 0.4rem;
+}
+.page5 .center .right li .plane img,
+.page5 .center .right li .open img {
+  width: 0.95rem;
+}
+.page5 .center .right li .plane img {
+  top: 0.2rem;
+}
+.page5 .center .link {
+  overflow: hidden;
+  margin-top: 0.6rem;
+}
+.page5 .center .link .btn {
+  float: left;
+  height: 0.7rem;
+  padding: 0 0.3rem;
+  border: 0.02rem solid #fff;
+  border-radius: 0.1rem;
+  background: none;
+  font-size: 0.25rem;
+  line-height: 0.7rem;
+  color: #fff;
+  margin-right: 0.2rem;
+  min-width: 1.5rem;
+  text-align: center;
+}
+.page5 .center .link .btn a{
+	font-size: .23rem;
+}
+.page6 {
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-page6.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.page6 .center {
+  padding-top: 7%;
+  width: 12rem;
+  margin: 0 auto;
+}
+.page6 .center .left,
+.page6 .center .right {
+  width: 5.55rem;
+}
+.page6 .center .left .title,
+.page6 .center .right .title {
+  height: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+.page6 .center .left .title h4,
+.page6 .center .right .title h4 {
+  line-height: 0.4rem;
+  font-size: 0.3rem;
+  color: #3b3b3b;
+}
+.page6 .center .left .title span,
+.page6 .center .right .title span {
+  line-height: 0.4rem;
+  font-size: 0.16rem;
+  color: #6e6e6e;
+}
+.page6 .center .left li,
+.page6 .center .right li {
+	overflow: hidden;
+  padding-top: 0.2rem;
+  padding-bottom: 10px;
+  padding-bottom: .15rem;
+  border-bottom: 1px dashed #91918e;
+}
+.page6 .center .left li p,
+.page6 .center .right li p {
+  float: left;
+  padding: 0 0 0 0.1rem;
+  font-size: 0.2rem;
+  color: #535353;
+  width: 4.2rem;
+}
+.page6 .center .left li span,
+.page6 .center .right li span {
+  float: right;
+  font-size: 0.18rem;
+  color: #9d9a9a;
+}
+.page6 .center .left .first,
+.page6 .center .right .first {
+  height: 1.4rem;
+  color: #9d9a9a;
+}
+.page6 .center .left .first p,
+.page6 .center .right .first p {
+  overflow: hidden;
+  max-height: 0.6rem;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.page6 .center .left .first div,
+.page6 .center .right .first div {
+  height: 0.7rem;
+  float: left;
+  padding: 0.2rem 0 0 0.1rem;
+  line-height: 0.36rem;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #9d9a9a;
+  font-size: .19rem;
+}
+.page7 {
+  position: relative;
+  background: url("http://7xsgt8.com1.z0.glb.clouddn.com/index-page7.jpg") 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.page7 .bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  height: 1.2rem;
+  background: #313131;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #adadad;
+  line-height: 1.2rem;
+  padding: 0 30%;
+}
+.page7 .bottom a{
+	display:block;
+	float:left;
+	color: #adadad;
+	text-align: center;
+	padding: 0 20px;
+	padding: 0 .3rem;
+}
+.page7 .hint {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 20%;
+  background: #ffd430;
+  width: 3.6rem;
+  height: 7rem;
+  color: #ffd430;
+}
+.page7 .hint ul {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0.5rem;
+  width: 100%;
+  font-size: 0.2rem;
+  text-align: center;
+  line-height: 0.5rem;
+}
+.page7 .hint ul li {
+  width: 50%;
+  float: left;
+  height: 100%;
+  color: #313131;
+  font-weight: 700;
+  cursor: pointer;
+}
+.page7 .hint ul .choice {
+  background: #313131;
+  color: #fff;
+}
+.page7 .hint .left,
+.page7 .hint .right {
+  width: 100%;
+}
+.page7 .hint .left {
+  width: 2.8rem;
+  padding: 0.2rem 0.4rem 0 0.4rem;
+}
+.page7 .hint .left .title {
+  height: 1.05rem;
+  border-bottom: 0.03rem solid #313131;
+  text-align: center;
+  margin-bottom: 0.15rem;
+}
+.page7 .hint .left .title img {
+  display: block;
+  width: 0.4rem;
+  margin: 0 auto;
+}
+.page7 .hint .left .title p {
+  color: #313131;
+  margin-top: 0.15rem;
+  font-size: .22rem;
+}
+.page7 .hint .p1,
+.page7 .hint .p2 {
+  font-size: 0.18rem;
+  color: #313131;
+  line-height: 0.32rem;
+}
+.page7 .hint .QRcode2 {
+  width: 100%;
+  margin-top: 0.15rem;
+}
+.page7 .hint .QRcode2 img {
+  display: block;
+  width: 1.38rem;
+  height: 1.38rem;
+  margin: 0 auto;
+}
+.page7 .hint .QRcode2 p {
+  color: #313131;
+  text-align: center;
+  width: 1.8rem;
+  margin: 0 auto;
+  font-size: 0.18rem;
+  margin-top: 0.1rem;
+}
+.page7 .right {
+  display: none;
+}
+.page7 .right .lianxi {
+  padding: 0.6rem 0.9rem 0 0.9rem;
+  width: 1.8rem;
+}
+.page7 .right .lianxi .p1,
+.page7 .right .lianxi .p2,
+.page7 .right .lianxi .p3 {
+  padding-bottom: 0.2rem;
+  border-bottom: 0.03rem solid #313131;
+  text-align: center;
+  font-family: "Microsoft YaHei",Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3",  STXihei, STHeiti, Heiti, SimSun, sans-serif;
+  font-size: 0.18rem;
+}
+.page7 .right .lianxi .p1 a,
+.page7 .right .lianxi .p2 a,
+.page7 .right .lianxi .p3 a {
+  color: #000;
+}
+.page7 .right .lianxi .p1 {
+  font-family: "Microsoft YaHei",Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3",  STXihei, STHeiti, Heiti, SimSun, sans-serif;
+}
+.page7 .right .lianxi .p1 img {
+  display: block;
+  width: 0.45rem;
+  height: auto;
+  margin: 0 auto 0.2rem auto;
+}
+.page7 .right .lianxi .p1 span {
+  margin-left: -0.5rem;
+  width: 2.8rem;
+  color: #000;
+  display: block;
+}
+.page7 .right .lianxi .p2 {
+  padding-top: 0.3rem;
+}
+.page7 .right .lianxi .p2 img {
+  display: block;
+  width: 0.45rem;
+  height: auto;
+  margin: 0 auto 0.2rem auto;
+}
+.page7 .right .lianxi .p2 .qq,
+.page7 .right .lianxi .p2 .qq1,
+.page7 .right .lianxi .p2 .qq2 {
+  color: #313131;
+  width: 2.4rem;
+  margin-left: -0.3rem;
+  line-height: 0.35rem;
+}
+.page7 .right .lianxi .p2 .qq {
+  margin-bottom: 0.2rem;
+}
+.page7 .right .lianxi .p3 {
+  padding-top: 0.4rem;
+  border: 0;
+}
+.page7 .right .lianxi .p3 img {
+  display: block;
+  width: 0.45rem;
+  height: auto;
+  margin: 0 auto 0.2rem auto;
+}
+.faqs {
+  margin: 0 auto;
+  overflow: auto;
+  font-family: "Microsoft YaHei",Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.faqs .title {
+  width: 12rem;
+  height: 0.65rem;
+  margin: 0 auto;
+  line-height: 0.65rem;
+  color: #323232;
+  font-size: 0.2rem;
+  border-bottom: 1px solid #ccc;
+}
+.faqs .title a {
+  color: #000;
+}
+.faqs .title span {
+  font-weight: 500;
+  color: #f87501;
+}
+.faqs .title .last a {
+  color: #f87501;
+}
+.faqs .center {
+  width: 12rem;
+  padding-top: 0.3rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  min-height: 100%;
+}
+.faqs .center ul li {
+  cursor: pointer;
+  font-size: 0.18rem;
+  line-height: 0.45rem;
+  overflow: hidden;
+}
+.faqs .center ul li .notice,
+.faqs .center ul li span {
+  color: #333;
+a
+}
+.faqs .center ul li i {
+  display: block;
+  float: left;
+  margin: 0.18rem 0.18rem 0 0;
+  width: 0.09rem;
+  height: 0.09rem;
+  background: #ff7646;
+}
+.faqs .center ul li .notice {
+  line-height: 0.45rem;
+}
+.faqs .center ul li .notice p {
+  color: #878686;
+  padding: 0 0 0 0.4rem;
+}
+.faqs .center ul li .triangle {
+  margin: 0.18rem 0.1rem 0 0;
+  float: right;
+  width: 0.15rem;
+  height: 0.08rem;
+}
+.faqs .center ul li .triangle img {
+  float: left;
+  width: 0.15rem;
+  height: auto;
+}
+.faqs .bottom {
+  width: 100%;
+  height: 1rem;
+  background: #313131;
+  text-align: center;
+  font-size: 0.2rem;
+  color: #adadad;
+  line-height: 1rem;
+}
+.bbs .data {
+  float: right;
+  font-size: 0.16rem;
+  color: #b3b2c0;
+}
+.details {
+  overflow: auto;
+}
+.details .center h2 {
+  line-height: 0.65rem;
+  color: #323232;
+  font-size: 0.36rem;
+  text-align: center;
+}
+.details .center h4 {
+  color: #323232;
+  font-size: 0.26rem;
+  text-align: center;
+  margin-top: 0.1rem;
+  margin-bottom: 0.25rem;
+}
+.details .center p,.details .center div {
+  text-indent: 0.4rem;
+  font-size: 14px;
+  font-size: 0.2rem;
+  line-height: 0.35rem;
+  color: #323232;
+}
+.details .center a {
+  color: #0000c8;
+}
+.details .center .img {
+	overflow: hidden;
+  width: 8.4rem;
+  margin: 0 auto;
+  margin-bottom: 0.4rem;
+}
+.details .center .img img {
+	float: left;
+  width: 3rem;
+  margin-right: 1rem;
+}
+.details .center ul li{
+	text-indent: 0.4rem;
+  font-size: 0.2rem;
+  line-height: 0.35rem;
+  color: #323232;
+	list-style-type: afar;
+}
+.details .center ul li span{
+    width: .2rem;
+    height: .2rem;
+    background: #000;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    margin-top: .075rem;
+}    
+.details .center .list {
+  text-indent: 0;
+  padding-left: 0.3rem;
+}
+.details .center .three p{
+	min-height: 30px;
+	min-height: .35rem;
+	text-indent: 0;
+}
+.details .center .o2oplay{
+	width: 800px;
+	width: 11rem;
+	display: block;
+	margin: 0 auto;
+}
+.details .center .h4{
+	font-size: .21rem;
+	text-align: left;
+}
+.details .center .five{
+	text-indent: 0;
+    margin-top: 20px;
+}
+.details .center .imgwx{
+	width: 200px;
+	width: 3rem;
+}
+.details .center .code {
+  padding: 0 0 0 1.4rem;
+}
+.details .center .code p {
+  width: 2rem;
+  float: left;
+  margin: 0 0.5rem;
+}
+.details .center .code p img {
+  float: left;
+  width: 2rem;
+}
+.details .center .code p span {
+  text-indent: 0;
+  float: left;
+  color: #000;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.tos_body{
+	width: 14rem;
+}
+.tos_body .center h4{
+	text-align: left;
+	font-size: 14px;
+	font-size: .2rem;
+	text-indent:0;
+	margin: .1rem 0;
+	line-height: .3rem;
+}
+
+.tos_body .center p{
+	text-indent:0;
+	margin: 8px 0;
+	margin: .1rem 0;
+	
+}
+.tos_body .center .indent{
+	padding-left: 20px;
+	padding-left:0.3rem;
+	font-size: 14px;
+	font-size: .2rem;
+	line-height: .35rem;
+}
+.tos_body .center .indent2{
+	text-indent: 0;
+	font-size: 14px;
+	font-size: .2rem;
+	position: relative;
+	padding-left: 40px;
+	padding-left:0.6rem;
+	line-height: .35rem;
+}
+.tos_body .center .policy{
+	  text-align: center;
+    margin-top: 30px;
+    font-weight: 800;
+}
+.tos_body .center .indent3{
+	padding-left: 20px;
+	padding-left: .3rem;
+	line-height: .35rem;
+}
+.tos_body .center .indent3 p{
+	padding-left: 20px;
+	padding-left: .3rem;
+}
+.tos_body .center .indent4{
+	padding-left: 0;
+	text-indent: 20px;
+	text-indent: .3rem;
+	line-height: .35rem;
+	
+}
+.tos_body .center .indent4 p{
+	text-indent: 20px;
+	text-indent: .3rem;
+}
+.tos_body .center span{
+	position: absolute;
+	left: 20px;
+	left: 0.3rem;
+	top: 0;
+	color: #000;
+	margin-right: .2rem;
+	/*line-height: 26px;*/
+	line-height: .35rem;
+}
+.details12 .center p{
+  text-indent: 0;
+}
+.details12 .center .textindent{
+  text-indent: 15px;
+  text-indent : .3rem;
+}
+.details13 .center p{
+  min-height: 7px;
+  min-height: .15rem;
+
+}
+.details .center .textindent{
+   text-indent: 15px;
+   text-indent : .3rem;
+ }
+.download_qt .btn{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  padding-right: 0;
+  padding-left: 0;
+  color: #fff;
+  background-color: #428bca;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.details6 .h3{
+  text-align: center;
+  color: rgb(255,0,0);
+}
+/*ï¿½Ô¼ï¿½Ð´ï¿½ï¿½*/
+#link_btn .btn{
+  float: left;
+  height: 0.7rem;
+  padding: 0 0.1rem;
+  border: 0.02rem solid #fff;
+  border-radius: 0.1rem;
+  background: none;
+  font-size: 0.2rem;
+  line-height: 0.7rem;
+  color: #fff;
+  margin-right: 0.1rem;
+   min-width: 1.0rem;
+  text-align: center;
+}
+/*#page4_left h2,#page4_left h4,#page4_left p{*/
+  /*font-family: Arial;*/
+/*}*/
+
+#link_btn .btn a{
+  display:inline-block;
+  width:100%;
+  height:100%;
+}
